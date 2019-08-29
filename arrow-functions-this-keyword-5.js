@@ -23,7 +23,7 @@ const box6 = {
     position: 1,
     clickMe: function() {
         document.querySelector('.green').addEventListener('click', () => {
-            var str = 'This is box number ' + this.position + ' and it is ' + this.color + '.';
+            var str = `This is box number ${this.position} and it is ${this.color}.`;
             alert(str); // all message
         });
     }
